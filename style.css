@@ -71,4 +71,12 @@ footer a:first-child {
 
 #wave {
   width: 100vw;
+  display: flex;
+
+}
+
+@media screen and (max-width: 620px) {
+  #wave {
+ width: 191vw;
+}
 }
