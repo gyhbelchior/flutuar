@@ -51,14 +51,12 @@ strong {
 #line {
   width: 568px;
   height:0px;
-  margin: 0 auto 20px;
   border: 1px solid #ECEFF2;
+  margin-top: 64px;
+  margin-bottom: 20px;
 }
 
-footer {
-  margin-left: 620px;
-  margin-bottom: 40px;
-}
+
 
 footer a {
   color: #3F3D56;
