@@ -9,14 +9,11 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-main {
- 
-}
 
-main, footer {
+main {
   width: 626px;
   text-align: center;
-  margin: 20px auto;
+  margin: 64px auto;
 }
 
 h1 {
@@ -54,16 +51,25 @@ strong {
 #line {
   width: 568px;
   height:0px;
-  margin: 0 auto 8px;
+  margin: 0 auto 20px;
   border: 1px solid #ECEFF2;
 }
 
-  a {
-    color: #3F3D56;
-    font-size: 15px;
-    font-weight: 700;
-    margin-right: 42px;
-  }
+footer {
+  margin-left: 620px;
+  margin-bottom: 40px;
+}
+
+footer a {
+  color: #3F3D56;
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 42px;
+}
+
+footer a:first-child {
+  margin-left: 0; 
+}
 
 #wave {
   width: 100vw;
